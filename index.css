@@ -1,0 +1,214 @@
+*{ /*font-size: 0px;*/
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+body{
+    padding: 0 1.5em;
+    font-family: 'Roboto', sans-serif;
+   
+}
+header {
+    text-align:end;
+    text-align: right;
+    height: 115px;
+    padding-top: 90px;
+    padding-bottom: 4%;
+    padding-right: 7.2%;
+    position: relative;
+
+}
+h2{
+    
+    font-size: 1.9rem;
+    color: #282828;
+    display: inline-block;
+    font-family: "Crimson Text",Georgia,Serif;
+    
+}
+.introduction{
+    height: 30px;
+    width: 75%;
+    text-align:left;
+    padding: 30px;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-size: 3rem;
+    font-weight: 600;
+    animation-duration: 3s;
+    animation-name: slidein;}
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      
+}
+.flex-main-container{
+    display: flex;
+    height: 1200px;
+    width: 100%;
+    border: solid purple;
+    flex-direction: column;
+    position: relative;
+    
+       
+}
+.flex-container{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ border-color: rgb(241, 237, 237);
+ border-style: dashed;
+ height: 100%;
+ width: 100%;
+ position: relative;
+
+}
+.first-box{
+display: flex;
+height: 45%;
+width: 50%;
+border-style: dashed;
+/*background-color: cornsilk;*/
+box-sizing: border-box;
+background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.simplilearn.com%2Fice9%2Ffree_resources_article_thumb%2Ftester-or-developer-what-suits-you-the-most.jpg&imgrefurl=https%3A%2F%2Fwww.simplilearn.com%2Fsoftware-tester-or-developer-article&tbnid=DZGfc1OMU66TwM&vet=12ahUKEwjVtZCnuPXwAhWAkoQIHYNgAFsQMygHegUIARDEAQ..i&docid=y__Gb749qbobFM&w=848&h=477&q=developer&ved=2ahUKEwjVtZCnuPXwAhWAkoQIHYNgAFsQMygHegUIARDEAQ);
+}
+.second-box{
+    display: flex;
+    height: 50%;
+    width: 50%;
+    border-style: dashed;
+    background-color: rgb(188, 231, 224);
+    box-sizing: border-box;
+    position: relative;
+  
+}
+.third-box{
+    display: flex;
+    height: 45%;
+    width: 50%;
+    border-style: dashed;
+    background-color: rgb(207, 219, 217);
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    position:relative;
+    top: -5%;
+}
+.four-box{
+    display: flex;
+    height: 50%;
+    width: 50%;
+    border-style: dashed;
+    background-color: rgb(230, 207, 231);
+    box-sizing: border-box; 
+    
+}
+.five-box{
+        display: flex;
+        height: 100%;
+        width: 10%;
+        flex-direction: column;
+        border-style: dashed;
+        background-color: rgb(204, 95, 207);
+        box-sizing: border-box;
+        position: absolute;
+        right: 0;
+}
+.knowledge{
+   text-align: center;
+   color: #484747;
+   font-size: 2rem;
+   font-family: "Crimson;
+
+}
+.skills{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    padding: 5%;
+    justify-content: center;
+    display: inline block;
+    border-style: dashed;
+    box-sizing: border-box;
+}
+.skills-one{
+    display: flex;
+    height: 90px;
+    width: 90px;
+    /*border-style: solid;*/
+    
+}
+.skills-two{
+    display: flex;
+    height: 90px;
+    width: 90px;
+    margin-left:10%;
+    border: solid;
+    
+}
+.skills-three{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    margin-left:10%;
+    justify-content:space-around;
+}
+form{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(214, 235, 235);
+    text-align: center;
+}
+h3{
+    padding: 5px;
+    font-size: 1.3rem;
+}
+/*form{
+    width: 35%;
+    margin-top: 10px;
+    line-height: 20px;*/
+    
+
+input#name{
+    width: 25%;
+    margin-top: 15px;    
+    border-style: none;
+    border-bottom:solid 0.3px black ;
+    font-size: 1.3rem;
+}
+input#email{
+    width: 25%;
+    margin-top: 15px;    
+    border-style: none;
+    border-bottom:solid 0.3px black ;
+    font-size: 1.3rem;
+}
+textarea{
+    width: 25%;
+    margin-top: 15px;    
+    border-style: none;
+    border-bottom:solid 0.3px black ;
+    font-size: 1.3rem;
+}
+#submit{
+    width: 25%;
+    margin-top: 15px;    
+    border-style: none;
+    font-size: 1.3rem;
+    background: red;
+}
+#submit:hover{
+background-color: rgb(241, 107, 107);
+}
+.datos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+
+}
+
