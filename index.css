@@ -74,40 +74,38 @@ h2{
 display: flex;
 height: 45%;
 width: 50%;
-border-style: dashed;
-/*background-color: cornsilk;*/
 box-sizing: border-box;
-background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.simplilearn.com%2Fice9%2Ffree_resources_article_thumb%2Ftester-or-developer-what-suits-you-the-most.jpg&imgrefurl=https%3A%2F%2Fwww.simplilearn.com%2Fsoftware-tester-or-developer-article&tbnid=DZGfc1OMU66TwM&vet=12ahUKEwjVtZCnuPXwAhWAkoQIHYNgAFsQMygHegUIARDEAQ..i&docid=y__Gb749qbobFM&w=848&h=477&q=developer&ved=2ahUKEwjVtZCnuPXwAhWAkoQIHYNgAFsQMygHegUIARDEAQ);
+
 }
 .second-box{
     display: flex;
     height: 50%;
     width: 50%;
-    border-style: dashed;
-    background-color: rgb(188, 231, 224);
+    overflow: hidden;   
     box-sizing: border-box;
     position: relative;
+    border-style: dotted;
   
 }
 .third-box{
     display: flex;
     height: 45%;
     width: 50%;
-    border-style: dashed;
-    background-color: rgb(207, 219, 217);
     flex-wrap: wrap;
+    overflow: hidden;
     box-sizing: border-box;
     position:relative;
-    top: -5%;
+    top: -8%;
 }
 .four-box{
     display: flex;
-    height: 50%;
+    height: 45%;
     width: 50%;
-    border-style: dashed;
-    background-color: rgb(230, 207, 231);
+    overflow: hidden;
     box-sizing: border-box; 
-    
+    border-style: dotted;
+    position: relative; 
+    top: -30px;   
 }
 .five-box{
         display: flex;
