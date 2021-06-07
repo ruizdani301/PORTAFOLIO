@@ -60,154 +60,105 @@ h2{
     margin-left: 4%;   
        
 }
-.flex-container{
+.flex-container-left{
  display: flex;
- flex-wrap: wrap;
- flex-direction: row;
- border-color: rgb(241, 237, 237);
- border-style: dashed;
- height: 100%;
- width: 100%;
+ flex-direction: column;
+ border-color: rgb(192, 48, 48);
+ height: 90vh;
+ width: 46%;
  position: relative;
-
+ overflow: hidden;
+ box-sizing:border-box;
 }
 .first-box{
-display: flex;
-height: 330px;
-width: 48%;
-box-sizing: border-box;
-overflow: hidden;
+    width: 100%;
+    height: 45vh;
+    border-color: rgb(58, 226, 43);
+    border-style: dotted;
 
 }
 .second-box{
-    display: flex;
-    height: 330px;
-    width: 46%;
-    overflow: hidden;   
-    box-sizing: border-box;
-    position: relative;
+    width: 100%;
+    height: 45vh;
+    border-color: rgb(204, 85, 30);
     border-style: dotted;
-  
+    box-sizing: border-box;
+
+}
+.flex-container-right{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: 110vh;
+    overflow: hidden;
+    border-color: rgb(20, 17, 189);
+    border-style: dotted;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 46%;
 }
 .third-box{
-    display: flex;
-    height: 300px;
-    width: 48%;
-    flex-wrap: wrap;
-    overflow: hidden;
-    box-sizing: border-box;
-    position:relative;
-    top: -30px;
+    height: 55vh;
+    width: 100%;
+    border-color: burlywood;
+    border-style: dotted;
 }
 .four-box{
-    display: flex;
-    height: 330px;
-    width: 46%;
-    overflow: hidden;
-    box-sizing: border-box; 
-    border-style: dotted;
-    position:relative; 
-    top: -1px;   
+    height: 55vh;
+    width: 100%;
 }
 .five-box{
-        display: flex;
-        height: 100%;
-        width: 6%;
-        flex-direction: column;
-       
-        box-sizing: border-box;
-        position: absolute;
-        right: 0;
-        
+    position: absolute;
+    margin-left: 94%;
+    border-style: dotted;
+    height: 100%;
+    width: 6%;
 }
-.knowledge {
-   text-align: center;
-   color: #484747;
-   padding-top: 60px;
-     
+.knowledge h2{
+    border-style: dotted;
+    border-color: crimson;
+    height: 20px;
+    width: 94%;
+    margin-top: 20%;
+    text-align: center;
+
 }
 .skills{
-    display: flex;
-    height: 19%;
+    height: 30vh;
     width: 94%;
-    padding: 5%;
-    justify-content: center;
-    display: inline block;
-    border-style: dashed;
-    box-sizing: border-box;
-}
-.skills-one{
-    display: flex;
-    height: 90px;
-    width: 90px;
-    /*border-style: solid;*/
-    
-}
-.skills-two{
-    display: flex;
-    height: 90px;
-    width: 90px;
-    margin-left:10%;
-    border: solid;
-    
-}
-.skills-three{
-    display: flex;
-    height: 20px;
-    width: 20px;
-    margin-left:10%;
-    justify-content:space-around;
+    border-color: cyan;
+    border-style: dotted;
 }
 form{
-    height: 40%;
-    width: 94%;
-    background-color: rgb(214, 235, 235);
     text-align: center;
+    margin-left: 7%;
 }
 h3{
-    padding: 5px;
-    font-size: 1.3rem;
+    padding: 3%;
 }
-/*form{
-    width: 35%;
-    margin-top: 10px;
-    line-height: 20px;*/
-    
-
-input#name{
-    width: 25%;
-    margin-top: 15px;    
-    border-style: none;
-    border-bottom:solid 0.3px black ;
-    font-size: 1.3rem;
+#name{
+    border: none;
+    border-style: solid;
+    font-size: 20px;
+    width: 28%;
 }
-input#email{
-    width: 25%;
-    margin-top: 15px;    
-    border-style: none;
-    border-bottom:solid 0.3px black ;
-    font-size: 1.3rem;
+#email{
+    border: none;
+    border-style: solid;
+    font-size: 20px;    
+    width: 28%;
 }
-textarea{
-    width: 25%;
-    margin-top: 15px;    
-    border-style: none;
-    border-bottom:solid 0.3px black ;
-    font-size: 1.3rem;
+#message{
+    border: none;
+    border-style: solid;
+    font-size: 20px;
+    width: 28%;
 }
 #submit{
-    width: 25%;
-    margin-top: 15px;    
-    border-style: none;
-    font-size: 1.3rem;
-    background: red;
-}
-#submit:hover{
-background-color: rgb(241, 107, 107);
-}
-.datos{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.1rem;
-
+    border: none;
+    border-style: solid;
+    font-size: 20px;
+    width: 28%;
+    
 }
 
